@@ -1,19 +1,14 @@
 # ToDoList
 
-Çalıştırmak için ;
+#To make it run;
 
-1-TaskList.Web dosyasına giriniz ardından "ConnectionStrings" alanınına kendi sunucu bilgilerinizi ve oluşturmak istediğiniz tablo adını giriniz.
-2-Başlangıç projesini TaskList.Web seçerek çalıştırınız.
-3-Veri tabanında kullanıcı ve şifre oluşturduktan sonra giriş yapabilirsiniz.
+1- Go to appsetting.json file, then enter your "ConnectionStrings" information and the name of the table you want to create. 2-Select TaskList.Web as the initial startup project and run it. 3-After creating a user and password in the database, you can log in.
 
+If you get a database error;
+$ dotnet migrations, add TaskItems --startup-project ./ --project ../TaskList.DAL/
 
-Veri tabanı hatası almanız durumunda;
+Next
 
-$ dotnet ef migrations add TaskItems --startup-project ./ --project ../TaskList.DAL/
+$ dotnet ef data update --startup-project ./ --project ../TaskList.DAL/
 
-ardından 
-
-$ dotnet ef database update --startup-project ./ --project ../TaskList.DAL/
-
-komutlarını çalıştırıp tekrar deneyebilirsiniz.
-
+You can run the commands and try again.
