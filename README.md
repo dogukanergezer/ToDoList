@@ -8,7 +8,11 @@
 
 3-After creating a user and password in the database, you can login.
 
-If you get an error;
+#If you get database access error;
+
+1-Delete the migrations folder and
+
+2-Go to TaskList.Web directory on command line
 
 $ dotnet migrations add TaskItems --startup-project ./ --project ../TaskList.DAL/
 
