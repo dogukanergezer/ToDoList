@@ -10,9 +10,9 @@
 
 If you get an error;
 
-$ dotnet migrations, add TaskItems --startup-project ./ --project ../TaskList.DAL/
+$ dotnet migrations add TaskItems --startup-project ./ --project ../TaskList.DAL/
 
-$ dotnet migrations, add UserEntities --startup-project ./ --project ../TaskList.DAL/
+$ dotnet migrations add UserEntities --startup-project ./ --project ../TaskList.DAL/
 
 #Next
 
