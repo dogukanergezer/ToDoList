@@ -4,7 +4,7 @@
 
 1-Go to appsetting.json file, then enter your own server information in the "ConnectionStrings" field.
 
-2-Search TaskList.Web as a startup project.
+2-Set TaskList.Web as the startup project.
 
 3-After creating a user and password in the database, you can login.
 
