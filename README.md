@@ -14,13 +14,13 @@
 
 2-Go to **TaskList.Web** directory on command line
 ```
-$ dotnet migrations add TaskItems --startup-project ./ --project ../TaskList.DAL/`
+$ dotnet migrations add TaskItems --startup-project ./ --project ../TaskList.DAL/
 ```
 ```
-$ dotnet migrations add UserEntities --startup-project ./ --project ../TaskList.DAL/`
+$ dotnet migrations add UserEntities --startup-project ./ --project ../TaskList.DAL/
 ```
  **Next**
 ```
-$ dotnet ef data update --startup-project ./ --project ../TaskList.DAL/`
+$ dotnet ef data update --startup-project ./ --project ../TaskList.DAL/
 ```
 You can run the commands and try again.
