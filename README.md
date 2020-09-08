@@ -2,7 +2,7 @@
 
 ## To make it run;
 
-1-Go to appsetting.json file, then enter your own server information in the **ConnectionStrings** field.
+1-Go to **appsetting.json** file, then enter your own server information in the **ConnectionStrings** field.
 
 2-Set **TaskList.Web** as the startup project.
 
