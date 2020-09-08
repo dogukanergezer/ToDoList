@@ -12,13 +12,13 @@
 
 1-Delete the migrations folder and
 
-2-Go to TaskList.Web directory on command line
+2-Go to **TaskList.Web** directory on command line
 
 `dotnet migrations add TaskItems --startup-project ./ --project ../TaskList.DAL/`
 
 `dotnet migrations add UserEntities --startup-project ./ --project ../TaskList.DAL/`
 
-### Next
+ **Next**
 
 `dotnet ef data update --startup-project ./ --project ../TaskList.DAL/`
 
