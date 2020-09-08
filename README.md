@@ -1,6 +1,6 @@
 # ToDoList
 
-# To make it run;
+## To make it run;
 
 1-Go to appsetting.json file, then enter your own server information in the "ConnectionStrings" field.
 
